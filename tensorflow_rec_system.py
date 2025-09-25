@@ -267,8 +267,6 @@ dat
 
 
 #sample_df = dat.sample(n=100000)
-#sample_df.to_csv('customer_sample_qa_723.csv')
-
 
 dat.shape
 
@@ -311,8 +309,6 @@ data.head(25)
 corpus = list(dat.item_id.unique())
 num_words = len(corpus)
 num_words
-
-
 
 dat.shape
 
